@@ -1,0 +1,103 @@
+Szczecin Poznan 220
+Poznan Bytom 300
+Poznan Lodz 130
+Lodz Katowice 170
+Bytom Katowice 15
+Bytom Wroclaw 180
+Szczecin Koszalin 110
+Jastrzebie 33
+Warszawa Krakow 456
+Krakow Gdansk 356
+Zabludow Tarczyn 86
+Tarnobrzeg Tarnogrod 35 
+Tarnow Tczew 27
+Terespol Tolkmicko 866 
+Zabrze Zagorow 743
+Zagorz Zakliczyn 235
+Zaklikow Zakopane 126
+Zakroczym Zalewo 72
+Zambrow Zamosc 854
+Zator Wroclaw 36
+Poznan Zabludow 86
+Tarnobrzeg Tarnogrod 35 
+Tarnow Tczew 27
+Poznan Zagorz 130
+Lodz Zagorz 278
+Katowice 170
+Bytom Zakliczyn 374
+Katowice Tczew 15
+Bytom Krakow 83
+Wroclaw Krakow 180
+Jastrzebie Krakow 329
+Jastrzebie Sanniki 
+Sanok Krakow 180
+Sejny Bytom 634
+Serock  Krakow 523
+Sedziszow Bytom 252
+Sepopol Wroclaw 25
+Sianow Siechnice 25
+Siedlce Siedliszcze 252 
+Siemiatycze 35
+Sieniawa Sieradz 214
+Sierakow Sierpc 124
+Jastrzebie Sanniki 
+Sanok Bytom 180
+Sejny Krakow 634
+Serock  Krakow 523
+Sedziszow Katowice 252
+Sepopol Gdansk 25
+Sianow Szczecin 25
+Siedlce Gdansk 252 
+Siemiatycze Lodz 35
+Sieniawa Bytom
+Sierakow Katowice 55
+Zabludow Poznan 38
+Tarnobrzeg Poznan 828
+Tarnogrod Krakow 485 
+Tarnow Jastrzebie 534
+Tczew Gliwice 457
+Terespol Gliwice 24
+Tolkmicko Bytom 456 
+Zabrze Jastrzebie 34
+Zagorow Gdansk 73
+Zagorz Zabrze 344
+Zakliczyn Gliwice 635
+Zaklikow Poznan 63
+Zakopane Gdansk 375
+Zakroczym Gliwice 859
+Zalewo Lodz 82
+Zambrow Katowice 88
+Zamosc Katowice 854
+Jastrzebie 
+Sanniki Poznan 47
+Jastrzebie Sanniki Poznan 4
+                   Sanok                    Poznan                10
+Sejny Katowice 34
+Serock  Bytom 52
+Sedziszow Katowice 552
+Sepopol Gliwice 25
+Sianow Gliwice 45
+Siechnice Poznan 254
+Siedlce Katowice 748
+Siedliszcze Katowice 252 
+Siemiatycze Poznan 65
+Sieniawa Krakow 38
+Sieradz Krakow 314
+Sierakow Warszawa 576
+Sierpc Warszawa 544
+Jastrzebie Warszawa 68
+Sanniki Warszawa 56
+Sanok Gliwice 56
+Bytom Warszawa 680
+Sejny Gliwice 56
+Krakow Lodz 734
+Serock  Poznan 46
+Krakow Gliwice 123
+Sedziszow Krakow 758
+Sepopol Poznan 56
+Sianow Gdansk 253
+Siedlce Szczecin 53 
+Siemiatycze Gdansk 235
+Sieniawa Gdansk 123
+Sierakow Gdansk 213
+Kolobrzeg Gdansk 

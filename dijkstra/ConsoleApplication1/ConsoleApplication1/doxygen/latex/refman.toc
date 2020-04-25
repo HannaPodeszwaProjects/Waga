@@ -1,0 +1,59 @@
+\contentsline {chapter}{\numberline {1}Indeks klas}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Lista klas}{1}{section.1.1}% 
+\contentsline {chapter}{\numberline {2}Indeks plik\IeC {\'o}w}{3}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Lista plik\IeC {\'o}w}{3}{section.2.1}% 
+\contentsline {chapter}{\numberline {3}Dokumentacja klas}{5}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Dokumentacja struktury droga}{5}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{5}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{6}{subsection.3.1.2}% 
+\contentsline {subsubsection}{\numberline {3.1.2.1}pdroga}{6}{subsubsection.3.1.2.1}% 
+\contentsline {subsubsection}{\numberline {3.1.2.2}pmiasto}{6}{subsubsection.3.1.2.2}% 
+\contentsline {subsubsection}{\numberline {3.1.2.3}trasa}{6}{subsubsection.3.1.2.3}% 
+\contentsline {section}{\numberline {3.2}Dokumentacja struktury miasto}{6}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{7}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{7}{subsection.3.2.2}% 
+\contentsline {subsubsection}{\numberline {3.2.2.1}miastaobok}{8}{subsubsection.3.2.2.1}% 
+\contentsline {subsubsection}{\numberline {3.2.2.2}nazwamiasta}{8}{subsubsection.3.2.2.2}% 
+\contentsline {subsubsection}{\numberline {3.2.2.3}odleglosc\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}od\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}centrali}{8}{subsubsection.3.2.2.3}% 
+\contentsline {subsubsection}{\numberline {3.2.2.4}odwiedzony}{8}{subsubsection.3.2.2.4}% 
+\contentsline {subsubsection}{\numberline {3.2.2.5}pmiasto}{8}{subsubsection.3.2.2.5}% 
+\contentsline {subsubsection}{\numberline {3.2.2.6}p\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Miasto\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Poprzednie}{8}{subsubsection.3.2.2.6}% 
+\contentsline {chapter}{\numberline {4}Dokumentacja plik\IeC {\'o}w}{9}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Dokumentacja pliku Console\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Application1.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp}{9}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Dokumentacja definicji}{10}{subsection.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1.1}debug}{10}{subsubsection.4.1.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Dokumentacja funkcji}{10}{subsection.4.1.2}% 
+\contentsline {subsubsection}{\numberline {4.1.2.1}main()}{10}{subsubsection.4.1.2.1}% 
+\contentsline {section}{\numberline {4.2}Dokumentacja pliku funkcje.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp}{11}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Dokumentacja funkcji}{11}{subsection.4.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.1.1}Dijkstra()}{11}{subsubsection.4.2.1.1}% 
+\contentsline {subsubsection}{\numberline {4.2.1.2}help()}{12}{subsubsection.4.2.1.2}% 
+\contentsline {subsubsection}{\numberline {4.2.1.3}sprawdz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}argumenty()}{13}{subsubsection.4.2.1.3}% 
+\contentsline {subsubsection}{\numberline {4.2.1.4}stworz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}droga()}{13}{subsubsection.4.2.1.4}% 
+\contentsline {subsubsection}{\numberline {4.2.1.5}stworz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}miasto()}{14}{subsubsection.4.2.1.5}% 
+\contentsline {subsubsection}{\numberline {4.2.1.6}usun()}{15}{subsubsection.4.2.1.6}% 
+\contentsline {subsubsection}{\numberline {4.2.1.7}usun\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}drogi()}{15}{subsubsection.4.2.1.7}% 
+\contentsline {subsubsection}{\numberline {4.2.1.8}usun\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}miasta()}{16}{subsubsection.4.2.1.8}% 
+\contentsline {subsubsection}{\numberline {4.2.1.9}wczytajz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Pliku()}{17}{subsubsection.4.2.1.9}% 
+\contentsline {subsubsection}{\numberline {4.2.1.10}wypisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}droga()}{17}{subsubsection.4.2.1.10}% 
+\contentsline {subsubsection}{\numberline {4.2.1.11}wypisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}miasta()}{18}{subsubsection.4.2.1.11}% 
+\contentsline {subsubsection}{\numberline {4.2.1.12}wypisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}miasto()}{19}{subsubsection.4.2.1.12}% 
+\contentsline {subsubsection}{\numberline {4.2.1.13}wypisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}wynik()}{19}{subsubsection.4.2.1.13}% 
+\contentsline {section}{\numberline {4.3}Dokumentacja pliku funkcje.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h}{20}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Dokumentacja funkcji}{21}{subsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.1.1}Dijkstra()}{22}{subsubsection.4.3.1.1}% 
+\contentsline {subsubsection}{\numberline {4.3.1.2}help()}{22}{subsubsection.4.3.1.2}% 
+\contentsline {subsubsection}{\numberline {4.3.1.3}sprawdz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}argumenty()}{23}{subsubsection.4.3.1.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1.4}stworz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}droga()}{24}{subsubsection.4.3.1.4}% 
+\contentsline {subsubsection}{\numberline {4.3.1.5}stworz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}miasto()}{24}{subsubsection.4.3.1.5}% 
+\contentsline {subsubsection}{\numberline {4.3.1.6}usun()}{25}{subsubsection.4.3.1.6}% 
+\contentsline {subsubsection}{\numberline {4.3.1.7}usun\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}drogi()}{26}{subsubsection.4.3.1.7}% 
+\contentsline {subsubsection}{\numberline {4.3.1.8}usun\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}miasta()}{26}{subsubsection.4.3.1.8}% 
+\contentsline {subsubsection}{\numberline {4.3.1.9}wczytajz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Pliku()}{27}{subsubsection.4.3.1.9}% 
+\contentsline {subsubsection}{\numberline {4.3.1.10}wypisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}droga()}{28}{subsubsection.4.3.1.10}% 
+\contentsline {subsubsection}{\numberline {4.3.1.11}wypisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}miasta()}{28}{subsubsection.4.3.1.11}% 
+\contentsline {subsubsection}{\numberline {4.3.1.12}wypisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}miasto()}{29}{subsubsection.4.3.1.12}% 
+\contentsline {subsubsection}{\numberline {4.3.1.13}wypisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}wynik()}{30}{subsubsection.4.3.1.13}% 
+\contentsline {section}{\numberline {4.4}Dokumentacja pliku pch.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp}{31}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Dokumentacja pliku pch.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h}{31}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Dokumentacja pliku struktury.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h}{32}{section.4.6}% 

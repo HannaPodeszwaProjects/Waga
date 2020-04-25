@@ -1,0 +1,92 @@
+\hypertarget{structmiasto}{}\section{Dokumentacja struktury miasto}
+\label{structmiasto}\index{miasto@{miasto}}
+
+
+{\ttfamily \#include $<$struktury.\+h$>$}
+
+
+
+Diagram współpracy dla miasto\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{structmiasto__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{structmiasto_a75a023beb08b889860c2068ffd47318e}{nazwamiasta}}
+\item 
+\mbox{\hyperlink{structmiasto}{miasto}} $\ast$ \mbox{\hyperlink{structmiasto_a9cd7b8d4e3e00ba833d3149b76a918f9}{pmiasto}}
+\item 
+\mbox{\hyperlink{structdroga}{droga}} $\ast$ \mbox{\hyperlink{structmiasto_af69437beea5c134e233947df273a48a4}{miastaobok}}
+\item 
+bool \mbox{\hyperlink{structmiasto_a7a2028174edb36e184c06d084d02ef27}{odwiedzony}}
+\item 
+int \mbox{\hyperlink{structmiasto_a0c3b5abe9b7ab0df2ceb80f9bd3faec3}{odleglosc\+\_\+od\+\_\+centrali}}
+\item 
+\mbox{\hyperlink{structmiasto}{miasto}} $\ast$ \mbox{\hyperlink{structmiasto_a8238eaa6785b35e180170ae00996e515}{p\+Miasto\+Poprzednie}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Struktura miasto 
+\begin{DoxyParams}{Parametry}
+{\em nazwamiasta} & nazwa miasta \\
+\hline
+{\em pmiasto} & wskaznik na nastepne miasto \\
+\hline
+{\em miastaobok} & wskaznik na pierwszy element list drog \\
+\hline
+{\em odwiedzony} & true, gdy miasto zostalo odwiedzone, false -- nie zostalo odwiedzone \\
+\hline
+{\em odleglosc\+\_\+od\+\_\+centrali} & odleglosc od centrali \\
+\hline
+{\em p\+Miasto\+Poprzednie} & wskaznik na miasto poprzednie \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\mbox{\Hypertarget{structmiasto_af69437beea5c134e233947df273a48a4}\label{structmiasto_af69437beea5c134e233947df273a48a4}} 
+\index{miasto@{miasto}!miastaobok@{miastaobok}}
+\index{miastaobok@{miastaobok}!miasto@{miasto}}
+\subsubsection{\texorpdfstring{miastaobok}{miastaobok}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structdroga}{droga}}$\ast$ miasto\+::miastaobok}
+
+\mbox{\Hypertarget{structmiasto_a75a023beb08b889860c2068ffd47318e}\label{structmiasto_a75a023beb08b889860c2068ffd47318e}} 
+\index{miasto@{miasto}!nazwamiasta@{nazwamiasta}}
+\index{nazwamiasta@{nazwamiasta}!miasto@{miasto}}
+\subsubsection{\texorpdfstring{nazwamiasta}{nazwamiasta}}
+{\footnotesize\ttfamily std\+::string miasto\+::nazwamiasta}
+
+\mbox{\Hypertarget{structmiasto_a0c3b5abe9b7ab0df2ceb80f9bd3faec3}\label{structmiasto_a0c3b5abe9b7ab0df2ceb80f9bd3faec3}} 
+\index{miasto@{miasto}!odleglosc\+\_\+od\+\_\+centrali@{odleglosc\+\_\+od\+\_\+centrali}}
+\index{odleglosc\+\_\+od\+\_\+centrali@{odleglosc\+\_\+od\+\_\+centrali}!miasto@{miasto}}
+\subsubsection{\texorpdfstring{odleglosc\+\_\+od\+\_\+centrali}{odleglosc\_od\_centrali}}
+{\footnotesize\ttfamily int miasto\+::odleglosc\+\_\+od\+\_\+centrali}
+
+\mbox{\Hypertarget{structmiasto_a7a2028174edb36e184c06d084d02ef27}\label{structmiasto_a7a2028174edb36e184c06d084d02ef27}} 
+\index{miasto@{miasto}!odwiedzony@{odwiedzony}}
+\index{odwiedzony@{odwiedzony}!miasto@{miasto}}
+\subsubsection{\texorpdfstring{odwiedzony}{odwiedzony}}
+{\footnotesize\ttfamily bool miasto\+::odwiedzony}
+
+\mbox{\Hypertarget{structmiasto_a9cd7b8d4e3e00ba833d3149b76a918f9}\label{structmiasto_a9cd7b8d4e3e00ba833d3149b76a918f9}} 
+\index{miasto@{miasto}!pmiasto@{pmiasto}}
+\index{pmiasto@{pmiasto}!miasto@{miasto}}
+\subsubsection{\texorpdfstring{pmiasto}{pmiasto}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structmiasto}{miasto}}$\ast$ miasto\+::pmiasto}
+
+\mbox{\Hypertarget{structmiasto_a8238eaa6785b35e180170ae00996e515}\label{structmiasto_a8238eaa6785b35e180170ae00996e515}} 
+\index{miasto@{miasto}!p\+Miasto\+Poprzednie@{p\+Miasto\+Poprzednie}}
+\index{p\+Miasto\+Poprzednie@{p\+Miasto\+Poprzednie}!miasto@{miasto}}
+\subsubsection{\texorpdfstring{p\+Miasto\+Poprzednie}{pMiastoPoprzednie}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structmiasto}{miasto}}$\ast$ miasto\+::p\+Miasto\+Poprzednie}
+
+
+
+Dokumentacja dla tej struktury została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struktury_8h}{struktury.\+h}}\end{DoxyCompactItemize}

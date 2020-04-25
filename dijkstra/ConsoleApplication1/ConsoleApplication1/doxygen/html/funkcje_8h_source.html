@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Spedycja: Plik źródłowy funkcje.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Spedycja
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">funkcje.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="funkcje_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef funkcje_H  </span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define funkcje_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#pragma once   </span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;limits&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;ios&gt;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include&lt;limits.h&gt;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="struktury_8h.html">struktury.h</a>&quot;</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<a class="code" href="structmiasto.html">miasto</a> * <a class="code" href="funkcje_8h.html#ae12a0b2500d5b75f9ce2fc7df85ac34a">stworz_miasto</a>(<a class="code" href="structmiasto.html">miasto</a> * &amp;pHead, <span class="keyword">const</span> std::string &amp;nowanazwa);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8h.html#a5861dbcdab8888ba47cb308b8f47a05a">stworz_droga</a>( <span class="keywordtype">int</span> kilometry, <a class="code" href="structmiasto.html">miasto</a> * &amp; nowe_miasto1, <a class="code" href="structmiasto.html">miasto</a> * &amp; nowe_miasto2);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8h.html#a6aab3a8dc98794a386d900fd95c134bc">wypisz_miasto</a>(<a class="code" href="structmiasto.html">miasto</a> * pHead);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8h.html#a972eb4d39e18832696cfc49a88688084">wypisz_droga</a>(<a class="code" href="structdroga.html">droga</a> * pHead_droga);</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="funkcje_8h.html#a3ec9a37438ebb5c2e5e1b7a53b5a1198">Dijkstra</a>(<span class="keyword">const</span> std::string &amp;startowy, <a class="code" href="structmiasto.html">miasto</a>*  pHead);</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8h.html#af31b7e1c31ad3b478c612cb5a350439d">wypisz_wynik</a>(<a class="code" href="structmiasto.html">miasto</a> * pHead, <span class="keyword">const</span> std::string &amp;wyjscie);</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8h.html#ae23180fadb7ac55d4d66d10ff579f16d">wypisz_miasta</a>(<a class="code" href="structmiasto.html">miasto</a> * pHead, std::ostream &amp;wyjscie);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="funkcje_8h.html#a40fe3dceb03c4c0dd8aab0292c5e6ffd">sprawdz_argumenty</a>(<span class="keywordtype">int</span> ile, <span class="keywordtype">char</span> ** params, std::string &amp; wejscie, std::string &amp; wyjscie, std::string &amp; start);</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8h.html#ade295971762b742b2b2127c41c23bb11">wczytajzPliku</a>(<span class="keyword">const</span> std::string &amp;wejscie,<a class="code" href="structmiasto.html">miasto</a> * &amp;pGlowa);</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8h.html#ac3ddb9423da2f8370508b4e7eeeb75f4">usun_drogi</a>( <a class="code" href="structmiasto.html">miasto</a>*pmiasto);</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8h.html#aa23ae00d9a969716225cac3bcecc6d66">usun_miasta</a>(<a class="code" href="structmiasto.html">miasto</a>* &amp;pHead);</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8h.html#a1cce16b03fb2b1138609a546417fc7dd">usun</a>(<a class="code" href="structmiasto.html">miasto</a> * glowa_miasta); </div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8h.html#a6afafef7be0d9599c9e551cd4c9885bc">help</a>(<span class="keywordtype">int</span> ile, <span class="keywordtype">char</span> ** params);</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="structdroga_html"><div class="ttname"><a href="structdroga.html">droga</a></div><div class="ttdef"><b>Definition:</b> struktury.h:41</div></div>
+<div class="ttc" id="funkcje_8h_html_a1cce16b03fb2b1138609a546417fc7dd"><div class="ttname"><a href="funkcje_8h.html#a1cce16b03fb2b1138609a546417fc7dd">usun</a></div><div class="ttdeci">void usun(miasto *glowa_miasta)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:251</div></div>
+<div class="ttc" id="funkcje_8h_html_aa23ae00d9a969716225cac3bcecc6d66"><div class="ttname"><a href="funkcje_8h.html#aa23ae00d9a969716225cac3bcecc6d66">usun_miasta</a></div><div class="ttdeci">void usun_miasta(miasto *&amp;pHead)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:241</div></div>
+<div class="ttc" id="funkcje_8h_html_a6afafef7be0d9599c9e551cd4c9885bc"><div class="ttname"><a href="funkcje_8h.html#a6afafef7be0d9599c9e551cd4c9885bc">help</a></div><div class="ttdeci">void help(int ile, char **params)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:257</div></div>
+<div class="ttc" id="struktury_8h_html"><div class="ttname"><a href="struktury_8h.html">struktury.h</a></div></div>
+<div class="ttc" id="funkcje_8h_html_ae23180fadb7ac55d4d66d10ff579f16d"><div class="ttname"><a href="funkcje_8h.html#ae23180fadb7ac55d4d66d10ff579f16d">wypisz_miasta</a></div><div class="ttdeci">void wypisz_miasta(miasto *pHead, std::ostream &amp;wyjscie)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:111</div></div>
+<div class="ttc" id="funkcje_8h_html_a3ec9a37438ebb5c2e5e1b7a53b5a1198"><div class="ttname"><a href="funkcje_8h.html#a3ec9a37438ebb5c2e5e1b7a53b5a1198">Dijkstra</a></div><div class="ttdeci">bool Dijkstra(const std::string &amp;startowy, miasto *pHead)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:61</div></div>
+<div class="ttc" id="funkcje_8h_html_ae12a0b2500d5b75f9ce2fc7df85ac34a"><div class="ttname"><a href="funkcje_8h.html#ae12a0b2500d5b75f9ce2fc7df85ac34a">stworz_miasto</a></div><div class="ttdeci">miasto * stworz_miasto(miasto *&amp;pHead, const std::string &amp;nowanazwa)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:14</div></div>
+<div class="ttc" id="funkcje_8h_html_a5861dbcdab8888ba47cb308b8f47a05a"><div class="ttname"><a href="funkcje_8h.html#a5861dbcdab8888ba47cb308b8f47a05a">stworz_droga</a></div><div class="ttdeci">void stworz_droga(int kilometry, miasto *&amp;nowe_miasto1, miasto *&amp;nowe_miasto2)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:29</div></div>
+<div class="ttc" id="funkcje_8h_html_af31b7e1c31ad3b478c612cb5a350439d"><div class="ttname"><a href="funkcje_8h.html#af31b7e1c31ad3b478c612cb5a350439d">wypisz_wynik</a></div><div class="ttdeci">void wypisz_wynik(miasto *pHead, const std::string &amp;wyjscie)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:121</div></div>
+<div class="ttc" id="funkcje_8h_html_ac3ddb9423da2f8370508b4e7eeeb75f4"><div class="ttname"><a href="funkcje_8h.html#ac3ddb9423da2f8370508b4e7eeeb75f4">usun_drogi</a></div><div class="ttdeci">void usun_drogi(miasto *pmiasto)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:228</div></div>
+<div class="ttc" id="funkcje_8h_html_a6aab3a8dc98794a386d900fd95c134bc"><div class="ttname"><a href="funkcje_8h.html#a6aab3a8dc98794a386d900fd95c134bc">wypisz_miasto</a></div><div class="ttdeci">void wypisz_miasto(miasto *pHead)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:50</div></div>
+<div class="ttc" id="structmiasto_html"><div class="ttname"><a href="structmiasto.html">miasto</a></div><div class="ttdef"><b>Definition:</b> struktury.h:26</div></div>
+<div class="ttc" id="funkcje_8h_html_a972eb4d39e18832696cfc49a88688084"><div class="ttname"><a href="funkcje_8h.html#a972eb4d39e18832696cfc49a88688084">wypisz_droga</a></div><div class="ttdeci">void wypisz_droga(droga *pHead_droga)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:41</div></div>
+<div class="ttc" id="funkcje_8h_html_ade295971762b742b2b2127c41c23bb11"><div class="ttname"><a href="funkcje_8h.html#ade295971762b742b2b2127c41c23bb11">wczytajzPliku</a></div><div class="ttdeci">void wczytajzPliku(const std::string &amp;wejscie, miasto *&amp;pGlowa)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:187</div></div>
+<div class="ttc" id="funkcje_8h_html_a40fe3dceb03c4c0dd8aab0292c5e6ffd"><div class="ttname"><a href="funkcje_8h.html#a40fe3dceb03c4c0dd8aab0292c5e6ffd">sprawdz_argumenty</a></div><div class="ttdeci">bool sprawdz_argumenty(int ile, char **params, std::string &amp;wejscie, std::string &amp;wyjscie, std::string &amp;start)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:148</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>
