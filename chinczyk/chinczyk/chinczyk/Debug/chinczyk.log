@@ -1,0 +1,4 @@
+﻿  Stan.cpp
+C:\Users\hanna\Desktop\github\HPwtorek1330\chinczyk\chinczyk\chinczyk\Stan.cpp(65,19): warning C4305: "inicjowanie": obcięcie z "int" do "char"
+C:\Users\hanna\Desktop\github\HPwtorek1330\chinczyk\chinczyk\chinczyk\Stan.cpp(65,15): warning C4309: "inicjowanie": obcięcie stałej wartości
+  chinczyk.vcxproj -> C:\Users\hanna\Desktop\github\HPwtorek1330\chinczyk\chinczyk\Debug\chinczyk.exe
