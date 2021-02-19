@@ -9,5 +9,8 @@ C++:
 - Sudoku
 - Chińczyk
 
-Java:
+C#:
 - Lista zakupów
+
+Java:
+- Dziennik ocen

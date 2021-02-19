@@ -1,0 +1,16 @@
+pl\polsl\main\App.class
+pl\polsl\controller\PrintClassController.class
+pl\polsl\model\Register.class
+pl\polsl\model\Subject.class
+pl\polsl\controller\OptionsController.class
+pl\polsl\model\Average.class
+pl\polsl\controller\File1.class
+pl\polsl\controller\NewStudentController.class
+pl\polsl\controller\NewGradeController.class
+pl\polsl\controller\OptionsPrintController.class
+pl\polsl\controller\AddStudentException.class
+pl\polsl\model\Person.class
+pl\polsl\model\Grade.class
+pl\polsl\controller\AverageController.class
+pl\polsl\view\RegisterController.class
+pl\polsl\view\View.class

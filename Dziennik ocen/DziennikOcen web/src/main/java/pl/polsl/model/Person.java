@@ -1,0 +1,250 @@
+package pl.polsl.model;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+import pl.polsl.controller.AddStudentException;
+import pl.polsl.entities.Person1;
+import pl.polsl.entities.PersonSubject;
+import pl.polsl.entities.Subject1;
+
+/**
+ * Student in register
+ *
+ * @author Hanna Podeszwa
+ * @version 2.1
+ */
+public class Person {
+
+    /**
+     * Person's name as String
+     */
+    private String name;
+    /**
+     * Person's surname as String
+     */
+    private String surname;
+
+    /**
+     * Person's class as integer
+     */
+    private String class1;
+    /**
+     * Person's subject as array list
+     */
+    private final ArrayList<Subject> subject = new ArrayList<>();
+    /**
+     * Entity manager
+     */
+    EntityManager em;
+
+    /**
+     * Constructor which takes 3 parameteres
+     *
+     * @param name the person's name to set
+     * @param surname the person's surname to set
+     * @param class1 the person's class to set
+     */
+    public Person(String name, String surname, String class1) {
+        this.name = name;
+        this.surname = surname;
+        this.class1 = class1;
+    }
+
+    /**
+     * Constructor
+     */
+    public Person() {
+
+    }
+
+    /**
+     * Sets the name of the person
+     *
+     * @param newName the person's name to set
+     */
+    public void setName(String newName) {
+        name = newName;
+    }
+
+    /**
+     * Sets the surname of the person
+     *
+     * @param newSurname the person's name to set
+     */
+    public void setSurname(String newSurname) {
+        surname = newSurname;
+    }
+
+    /**
+     * Sets the class of the person
+     *
+     * @param newClass the person's class to set
+     */
+    public void setClass(String newClass) {
+        class1 = newClass;
+    }
+
+    /**
+     * Sets the subject of the person
+     *
+     * @param newSubject the person's subject to set
+     */
+    public void setSubject(Subject newSubject) {
+        subject.add(newSubject);
+    }
+
+    /**
+     * Gets the name of the person
+     *
+     * @return person's name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * Gets the surname of the person
+     *
+     * @return person's surname
+     */
+    public String getSurname() {
+        return surname;
+    }
+
+    /**
+     * Gets the class of the person
+     *
+     * @return person's class
+     */
+    public String getClass1() {
+        return class1;
+    }
+
+    /**
+     * Gets the subject of the person
+     *
+     * @return person's subjects
+     */
+    public ArrayList<Subject> getSubjects() {
+        return subject;
+    }
+
+    /**
+     * Add new subject
+     *
+     * @param newSubject subject to add
+     * @param person selected student
+     * @param em entitie manager
+     * @return true if adding is correct
+     */
+    public boolean addNewSubject(Person1 person, Subject newSubject, EntityManager em) {
+        this.em = em;
+        try {
+            subjectOk(newSubject.getName());
+        } catch (AddStudentException e) {
+            return false;
+        }
+
+        //find selected subject if it is in database
+        Query q = em.createQuery("SELECT a FROM Subject1 a WHERE a.name=:subject")
+                .setParameter("subject", (newSubject.getName()));
+        List l = q.getResultList();
+
+        Subject1 s = new Subject1();
+        if (l.isEmpty()) {
+            s.setName(newSubject.getName());//create new subject
+            persist(s);
+        } else {
+            s = ((Subject1) l.get(0));
+        }
+        PersonSubject ps = new PersonSubject();
+        ps.setIdPerson(person);
+        ps.setIdSubject(s);
+        persist(ps);
+        return true;
+    }
+
+    /**
+     * Insert new object to database
+     *
+     * @param object new object
+     */
+    public void persist(Object object) {
+        try {
+            em.getTransaction().begin();
+
+            em.persist(object);
+            em.getTransaction().commit();
+        } catch (Exception e) {
+            em.getTransaction().rollback();
+        }
+    }
+
+    /**
+     * Checks if a given subject is correct.
+     *
+     * @param name new subject
+     *
+     * @throws AddStudentException when student's subject is wrong.
+     */
+    private void subjectOk(String name) throws AddStudentException {
+
+        boolean isOk = Pattern.matches("[a-z]{1,}", name);
+        if (!isOk) {
+            throw new AddStudentException("Wrong subject's name.");
+        }
+    }
+
+    /**
+     * Override method comparing two objects of class Person
+     *
+     * @param o object to compare
+     * @return true if equal
+     */
+    @Override
+    public boolean equals(Object o) {
+        // If the object is compared with itself then return true   
+        if (o == this) {
+            return true;
+        }
+        // Check if o is an instance of Person or not 
+        if (!(o instanceof Person)) {
+            return false;
+        }
+        // typecast o to Person
+        Person p = (Person) o;
+
+        if (this.name.equals(p.name) && this.surname.equals(p.surname) && this.class1.equals(p.class1)) {
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * Checks if a given subject is already in this student's subjects.
+     *
+     * @param person person in register
+     * @param newSubject new subject to be added to the person
+     * @param em entity manager
+     * @return null if this subject isn't in list and this subject from list if
+     * already is
+     */
+    public Subject1 subjectAlreadyIn(Person1 person, String newSubject, EntityManager em) {
+
+        Query q = em.createQuery("SELECT s FROM Person1 p, PersonSubject ps, Subject1 s "
+                + "WHERE p = :student AND ps.idPerson = p AND ps.idSubject = s "
+                + "AND s.name=:subject")
+                .setParameter("student", person)
+                .setParameter("subject", newSubject);
+        List l = q.getResultList();
+        int size = l.size();
+
+        if (size == 0) {
+            return null;
+        }
+        return (Subject1) l.get(0);
+    }
+}

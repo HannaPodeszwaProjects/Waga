@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.NewStudentController">
+   <children>
+      <Label layoutX="70.0" layoutY="114.0" text="Imię:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="178.0" text="Nazwisko:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="241.0" text="Klasa:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameId" layoutX="192.0" layoutY="113.0" onAction="#action" />
+      <TextField fx:id="surnameId" layoutX="192.0" layoutY="177.0" onAction="#action" />
+      <TextField fx:id="classId" layoutX="192.0" layoutY="240.0" onAction="#action" />
+      <Label layoutX="181.0" layoutY="28.0" text="Dodaj nowego ucznia" textFill="#1f57b2">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="exit" layoutX="479.0" layoutY="332.0" mnemonicParsing="false" onAction="#exit" text="Powrót" />
+   </children>
+</Pane>

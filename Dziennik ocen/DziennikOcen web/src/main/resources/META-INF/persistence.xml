@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <!-- Define Persistence Unit -->
+  <persistence-unit name="my_persistence_unit">
+    <class>pl.polsl.entities.PersonSubject</class>
+    <class>pl.polsl.entities.Person1</class>
+    <class>pl.polsl.entities.Subject1</class>
+    <class>pl.polsl.entities.SubjectGrade</class>
+    <class>pl.polsl.entities.Grade1</class>
+  </persistence-unit>
+  <persistence-unit name="pl.polsl_DziennikOcen_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/Register"/>
+      <property name="javax.persistence.jdbc.user" value="app"/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.client.ClientAutoloadedDriver"/>
+      <property name="javax.persistence.jdbc.password" value="app"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>

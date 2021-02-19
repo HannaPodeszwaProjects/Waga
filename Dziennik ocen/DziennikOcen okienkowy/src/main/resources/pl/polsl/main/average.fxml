@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.AverageController">
+   <children>
+      <Label layoutX="73.0" layoutY="309.0" text="Średnia:" textFill="#1f66c9">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="61.0" text="Imię:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="118.0" text="Nazwisko:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="173.0" text="Klasa:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameId" layoutX="207.0" layoutY="60.0" onAction="#action" />
+      <TextField fx:id="surnameId" layoutX="207.0" layoutY="117.0" onAction="#action" />
+      <TextField fx:id="classId" layoutX="207.0" layoutY="172.0" onAction="#action" />
+      <Label fx:id="averageId" layoutX="207.0" layoutY="309.0" prefHeight="36.0" prefWidth="104.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="231.0" text="Przedmiot:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="subjectId" layoutX="207.0" layoutY="230.0" onAction="#action" />
+      <Button fx:id="exit" layoutX="486.0" layoutY="330.0" mnemonicParsing="false" onAction="#exit" text="Powrót" />
+   </children>
+</Pane>
