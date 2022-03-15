@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="window" prefHeight="390.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.administratorActions.teacher.ManageTeachersController">
+    <children>
+      <Label alignment="CENTER" layoutX="140.0" layoutY="10.0" prefWidth="241.0" text="Zarządzanie nauczycielami">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="searchC" layoutX="20.0" layoutY="46.0" prefWidth="133.0" />
+      <TextField fx:id="searchT" layoutX="163.0" layoutY="46.0" prefWidth="133.0" promptText="wyszukiwarka" />
+        <TableView fx:id="tableTeachers" layoutX="20.0" layoutY="86.0" prefHeight="284.0" prefWidth="276.0">
+            <columns>
+                <TableColumn id="nameC" fx:id="nameC" prefWidth="115.0" resizable="false" text="Imię" />
+                <TableColumn id="surnameC" fx:id="surnameC" prefWidth="145.0" resizable="false" text="Nazwisko" />
+            </columns>
+        </TableView>
+        <Button  layoutX="316.0" layoutY="86.0" mnemonicParsing="false" onAction="#addTeacherButton" prefWidth="165.0" text="Dodaj nowego nauczyciela" />
+        <Button  layoutX="316.0" layoutY="126.0" mnemonicParsing="false" onAction="#updateTeacherButton" prefWidth="165.0" text="Modyfikuj dane nauczyciela" />
+        <Button layoutX="316.0" layoutY="166.0" mnemonicParsing="false" onAction="#deleteTeacherButton" prefWidth="165.0" text="Usuń nauczyciela" />
+      <Label layoutX="316.0" layoutY="206.0" prefWidth="165.0" text="Drugie imię:" />
+      <Label fx:id="name2" layoutX="316.0" layoutY="226.0" prefWidth="165.0" />
+      <Label layoutX="316.0" layoutY="251.0" prefWidth="165.0" text="Email:" />
+      <Label fx:id="email" layoutX="316.0" layoutY="271.0" prefWidth="165.0" />
+      <Label layoutX="316.0" layoutY="296.0" prefWidth="165.0" text="Numer kontaktowy:" />
+      <Label fx:id="phone" layoutX="316.0" layoutY="316.0" prefWidth="165.0" />
+        <Button layoutX="316.0" layoutY="345.0" mnemonicParsing="false" onAction="#cancelButton" prefWidth="165.0" text="Powrót" />
+    </children>
+</AnchorPane>

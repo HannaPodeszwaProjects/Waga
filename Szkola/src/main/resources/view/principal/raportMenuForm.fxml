@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="306.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.principal.RaportMenuController">
+   <children>
+      <Label alignment="CENTER" layoutX="145.0" layoutY="10.0" prefWidth="200.0" text="Raporty">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="30.0" text="Przedmioty" />
+      <TableView fx:id="tableSubjects" layoutX="20.0" layoutY="46.0" prefHeight="240.0" prefWidth="240.0">
+         <columns>
+            <TableColumn id="nameC" fx:id="nameC" prefWidth="224.0" resizable="false" text="Nazwa" />
+         </columns>
+      </TableView>
+      <Button layoutX="280.0" layoutY="46.0" mnemonicParsing="false" onAction="#clickButtonAverageGrade" prefWidth="190.0" text="Średnia ocen" />
+      <Button fx:id="highestAvg" disable="true" layoutX="280.0" layoutY="86.0" mnemonicParsing="false" onAction="#clickButtonAverageSubject" prefWidth="190.0" text="Najwyższa średnia z przedmiotu" />
+      <Button layoutX="280.0" layoutY="126.0" mnemonicParsing="false" onAction="#clickButtonSelectStudent" prefWidth="190.0" text="Wypisz studentów" />
+      <DatePicker fx:id="date1" layoutX="280.0" layoutY="171.0" prefHeight="26.0" prefWidth="190.0" />
+      <DatePicker fx:id="date2" layoutX="280.0" layoutY="216.0" prefHeight="26.0" prefWidth="190.0" />
+      <Button layoutX="280.0" layoutY="261.0" mnemonicParsing="false" onAction="#clickButtonBack" prefWidth="190.0" text="Powrót" />
+      <Label layoutX="280.0" layoutY="157.0" text="Od:" />
+      <Label layoutX="280.0" layoutY="202.0" text="Do:" />
+   </children>
+</AnchorPane>

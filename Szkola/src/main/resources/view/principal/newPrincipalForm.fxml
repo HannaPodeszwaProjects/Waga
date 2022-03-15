@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="139.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.principal.NewPrincipalController">
+   <children>
+      <Button layoutX="20.0" layoutY="94.0" mnemonicParsing="false" onAction="#pressChange" prefWidth="150.0" text="Zmień dyrektora" />
+      <Button layoutX="190.0" layoutY="94.0" mnemonicParsing="false" onAction="#cancelButton" prefWidth="150.0" text="Powrót" />
+      <TextField fx:id="login" layoutX="20.0" layoutY="54.0" prefWidth="150.0" />
+      <TextField fx:id="password" layoutX="190.0" layoutY="54.0" prefWidth="150.0" />
+      <Label alignment="CENTER" layoutX="80.0" layoutY="10.0" prefWidth="200.0" text="Zmiana dyrektora">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="40.0" text="Login" />
+      <Label layoutX="190.0" layoutY="40.0" text="Hasło" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="362.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.studentActions.StudentGradesController">
+   <children>
+       <Label layoutX="215.0" layoutY="10.0" prefWidth="100.0" style="-fx-alignment: Center;" text="Oceny">
+           <font>
+             <Font size="18.0" />
+           </font>
+       </Label>
+       <TableView fx:id="table" layoutX="20.0" layoutY="46.0" prefHeight="257.0" prefWidth="490.0">
+           <columns>
+               <TableColumn fx:id="columnSubject" editable="false" prefWidth="154.0" text="Przedmiot" />
+               <TableColumn fx:id="columnGrade" editable="false" prefWidth="45.0" text="Ocena" />
+               <TableColumn fx:id="columnWeight" editable="false" prefWidth="45.0" text="Waga" />
+               <TableColumn fx:id="columnDate" editable="false" text="Data" />
+               <TableColumn fx:id="columnDescription" editable="false" prefWidth="150.0" sortable="false" text="Opis" />
+           </columns>
+       </TableView>
+       <ComboBox fx:id="comboboxChildren" layoutX="20.0" layoutY="317.0" onAction="#changeComboboxChildren" prefWidth="200.0" />
+      <ComboBox fx:id="comboboxSubject" layoutX="240.0" layoutY="317.0" onAction="#changeComboboxSubject" prefWidth="150.0" />
+       <Button layoutX="406.0" layoutY="317.0" mnemonicParsing="false" onAction="#clickButtonBack" prefHeight="25.0" prefWidth="100.0" text="Powrót" />
+   </children>
+</AnchorPane>

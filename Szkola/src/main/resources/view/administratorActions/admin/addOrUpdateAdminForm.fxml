@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="window" prefHeight="251.0" prefWidth="302.0" stylesheets="@../../../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.administratorActions.admin.AddOrUpdateAdminController">
+   <children>
+      <Label fx:id="title" alignment="CENTER" layoutX="41.0" layoutY="10.0" prefWidth="220.0" text="Title">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="51.0" prefWidth="110.0" text="Imie:" />
+      <TextField fx:id="name" layoutX="132.0" layoutY="46.0" prefWidth="150.0" promptText="wymagane" />
+      <Label layoutX="20.0" layoutY="81.0" prefWidth="110.0" text="Drugie imie:" />
+      <TextField fx:id="name2" layoutX="132.0" layoutY="76.0" prefWidth="150.0" />
+      <Label layoutX="20.0" layoutY="111.0" prefWidth="110.0" text="Nazwisko:" />
+      <TextField fx:id="surname" layoutX="132.0" layoutY="106.0" prefWidth="150.0" promptText="wymagane" />
+      <Label layoutX="20.0" layoutY="141.0" prefWidth="110.0" text="Email:" />
+      <TextField fx:id="email" layoutX="132.0" layoutY="136.0" prefWidth="150.0" promptText="wymagane" />
+      <Label layoutX="20.0" layoutY="171.0" prefWidth="110.0" text="Numer kontaktowy:" />
+      <TextField fx:id="phone" layoutX="132.0" layoutY="166.0" prefWidth="150.0" />
+      <Button fx:id="confirm" layoutX="20.0" layoutY="206.0" mnemonicParsing="false" onAction="#confirmChangesButton" prefWidth="121.0" styleClass="button-confirm" text="Zatwierdź" />
+      <Button layoutX="161.0" layoutY="206.0" mnemonicParsing="false" onAction="#discardChangesButton" prefWidth="121.0" text="Anuluj" />
+      </children>
+</AnchorPane>

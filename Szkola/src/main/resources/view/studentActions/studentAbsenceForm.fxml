@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="362.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.studentActions.StudentAbsenceController">
+   <children>
+      <Label layoutX="128.0" layoutY="10.0" prefWidth="200.0" style="-fx-alignment: CENTER;" text="Nieobecności" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="20.0" layoutY="46.0" prefHeight="257.0" prefWidth="416.0">
+         <columns>
+            <TableColumn fx:id="columnSubject" prefWidth="150.0" resizable="false" text="Przedmiot" />
+            <TableColumn fx:id="columnDate" resizable="false" style="-fx-alignment: CENTER;" text="Data" />
+            <TableColumn fx:id="columnHour" minWidth="0.0" prefWidth="60.0" resizable="false" style="-fx-alignment: CENTER;" text="Godzina" />
+            <TableColumn fx:id="columnCheck" prefWidth="110.0" resizable="false" style="-fx-alignment: CENTER;" text="Usprawiedliwienie" />
+         </columns>
+      </TableView>
+      <ComboBox fx:id="comboboxChildren" layoutX="20.0" layoutY="317.0" onAction="#changeComboboxChildren" prefHeight="25.0" prefWidth="200.0" />
+      <Button layoutX="336.0" layoutY="317.0" mnemonicParsing="false" onAction="#clickButtonBack" prefHeight="25.0" prefWidth="100.0" text="Powrót" />
+   </children>
+</AnchorPane>

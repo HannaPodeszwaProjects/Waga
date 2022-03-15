@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="146.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.administratorActions.subject.AddOrUpdateSubjectController">
+    <children>
+      <Label fx:id="title" alignment="CENTER" layoutX="20.0" layoutY="10.0" prefWidth="200.0" text="Title">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+        <Label alignment="CENTER" layoutX="20.0" layoutY="46.0" prefHeight="18.0" prefWidth="200.0" text="Nazwa:" />
+    <TextField fx:id="name" layoutX="20.0" layoutY="66.0" prefHeight="26.0" prefWidth="200.0" promptText="wymagane" />
+    <Button fx:id="confirm" layoutX="20.0" layoutY="101.0" mnemonicParsing="false" onAction="#confirmChangesButton" prefHeight="26.0" prefWidth="95.0" styleClass="button-confirm" text="Zatwierdź" />
+    <Button layoutX="125.0" layoutY="101.0" mnemonicParsing="false" onAction="#discardChangesButton" prefHeight="26.0" prefWidth="95.0" text="Anuluj" />
+    </children>
+</AnchorPane>

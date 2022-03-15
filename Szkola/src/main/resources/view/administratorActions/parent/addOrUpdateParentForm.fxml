@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="503.0" prefWidth="356.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.administratorActions.parent.AddOrUpdateParentController">
+    <children>
+        <Label fx:id="title" alignment="CENTER" layoutX="78.0" layoutY="10.0" prefHeight="27.0" prefWidth="200.0" text="Title">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+        <Label layoutX="20.0" layoutY="51.0" prefWidth="110.0" text="Imie:" />
+        <TextField fx:id="name" layoutX="135.0" layoutY="46.0" prefWidth="201.0" promptText="wymagane" />
+        <Label layoutX="20.0" layoutY="81.0" prefWidth="110.0" text="Drugie imie:" />
+        <TextField fx:id="name2" layoutX="135.0" layoutY="76.0" prefWidth="201.0" />
+        <Label layoutX="20.0" layoutY="111.0" prefWidth="110.0" text="Nazwisko:" />
+        <TextField fx:id="surname" layoutX="135.0" layoutY="106.0" prefWidth="201.0" promptText="wymagane" />
+        <Label layoutX="20.0" layoutY="141.0" prefWidth="110.0" text="Email:" />
+        <TextField fx:id="email" layoutX="135.0" layoutY="136.0" prefWidth="201.0" promptText="wymagane" />
+        <Label layoutX="20.0" layoutY="171.0" prefWidth="110.0" text="Numer kontaktowy:" />
+
+        <TextField fx:id="phone" layoutX="135.0" layoutY="166.0" prefWidth="201.0" />
+        <Label layoutX="20.0" layoutY="201.0" prefWidth="110.0" text="Adres:" />
+      <TextField fx:id="adress" layoutX="135.0" layoutY="196.0" prefWidth="201.0" />
+      <Label layoutX="20.0" layoutY="231.0" prefWidth="110.0" text="Dzieci:" />
+      <TableView fx:id="tableStudents" layoutX="20.0" layoutY="248.0" prefHeight="200.0" prefWidth="316.0">
+        <columns>
+          <TableColumn fx:id="nameC" prefWidth="90.0" resizable="false" text="Imię" />
+          <TableColumn fx:id="surnameC" prefWidth="100.0" resizable="false" text="Nazwisko" />
+            <TableColumn fx:id="classC" minWidth="4.000030517578125" prefWidth="50.0" resizable="false" text="Klasa" />
+            <TableColumn fx:id="chooseC" prefWidth="60.0" resizable="false" text="Wybierz" />
+        </columns>
+      </TableView>
+        <Button fx:id="confirm" layoutX="20.0" layoutY="458.0" mnemonicParsing="false" onAction="#confirmChangesButton" prefWidth="148.0" styleClass="button-confirm" text="Zatwierdź" />
+        <Button layoutX="188.0" layoutY="458.0" mnemonicParsing="false" onAction="#discardChangesButton" prefWidth="148.0" text="Anuluj" />
+    </children>
+</AnchorPane>

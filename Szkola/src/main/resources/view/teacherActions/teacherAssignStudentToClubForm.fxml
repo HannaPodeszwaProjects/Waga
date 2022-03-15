@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="266.0" prefWidth="446.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.teacherActions.TeacherAssignStudentToClubController">
+   <children>
+      <Label alignment="CENTER" layoutX="123.0" layoutY="10.0" prefWidth="200.0" text="Zapisywanie uczniów">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" editable="true" layoutX="20.0" layoutY="46.0" prefHeight="200.0" prefWidth="236.0">
+        <columns>
+          <TableColumn fx:id="columnName" editable="false" prefWidth="100.0" resizable="false" text="Imie" />
+            <TableColumn fx:id="columnSurname" editable="false" prefWidth="120.0" resizable="false" text="Nazwisko" />
+        </columns>
+      </TableView>
+      <ComboBox fx:id="comboboxClass" layoutX="276.0" layoutY="46.0" onAction="#changeComboboxClass" prefWidth="150.0" />
+
+       <Label fx:id="infoLabel" alignment="TOP_LEFT" layoutX="276.0" layoutY="78.0" prefHeight="78.0" prefWidth="150.0" />
+
+       <Button fx:id="buttonAdd" layoutX="276.0" layoutY="181.0" mnemonicParsing="false" onAction="#clickButtonAdd" prefWidth="150.0" text="Przypisz" />
+      <Button layoutX="276.0" layoutY="221.0" mnemonicParsing="false" onAction="#clickButtonBack" prefHeight="25.0" prefWidth="150.0" text="Powrót" />
+   </children>
+</AnchorPane>

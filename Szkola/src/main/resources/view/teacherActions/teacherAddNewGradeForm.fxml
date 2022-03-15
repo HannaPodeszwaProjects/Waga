@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="311.0" prefWidth="360.0" stylesheets="@../../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.teacherActions.TeacherAddNewGradeController">
+<children>
+   <Label alignment="CENTER" layoutX="80.0" layoutY="10.0" prefWidth="200.0" text="Dodawanie oceny">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="20.0" layoutY="46.0" prefHeight="20.0" prefWidth="150.0" text="Uczeń">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+   <ComboBox fx:id="studentComboBox" layoutX="20.0" layoutY="71.0" prefHeight="25.0" prefWidth="150.0">
+     </ComboBox>
+   <Label alignment="CENTER" layoutX="20.0" layoutY="106.0" prefHeight="20.0" prefWidth="150.0" text="Przedmiot">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="labelSubject" alignment="CENTER" layoutX="20.0" layoutY="136.0" prefHeight="20.0" prefWidth="150.0" text="labelSubject">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+   <Label fx:id="infoLabel" layoutX="20.0" layoutY="167.0" prefHeight="94.0" prefWidth="150.0" />
+   <Button fx:id="buttonAdd" layoutX="20.0" layoutY="266.0" mnemonicParsing="false" onAction="#submitAction" prefHeight="25.0" prefWidth="150.0" text="Dodaj" />
+   <Label alignment="CENTER" layoutX="190.0" layoutY="46.0" prefWidth="150.0" text="Ocena">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+   <ComboBox fx:id="gradeComboBox" layoutX="190.0" layoutY="71.0" prefWidth="150.0">
+      <items>
+         <FXCollections fx:factory="observableArrayList">
+            <Float fx:value="1.00" />
+            <Float fx:value="2.00" />
+            <Float fx:value="3.00" />
+            <Float fx:value="4.00" />
+            <Float fx:value="5.00" />
+            <Float fx:value="6.00" />
+         </FXCollections>
+      </items>
+   </ComboBox>
+   <Label alignment="CENTER" layoutX="190.0" layoutY="106.0" prefWidth="150.0" text="Waga">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+   <ComboBox fx:id="valueComboBox" layoutX="190.0" layoutY="131.0" prefWidth="150.0">
+      <items>
+         <FXCollections fx:factory="observableArrayList">
+            <Float fx:value="1.00" />
+            <Float fx:value="2.00" />
+            <Float fx:value="3.00" />
+         </FXCollections>
+      </items>
+   </ComboBox>
+   <TextField fx:id="descriptionTextField" alignment="TOP_LEFT" layoutX="190.0" layoutY="168.0" prefHeight="90.0" prefWidth="150.0" promptText="Opis" />
+   <Button layoutX="190.0" layoutY="266.0" mnemonicParsing="false" onAction="#backAction" prefWidth="150.0" text="Powrót" />
+</children>
+</AnchorPane>

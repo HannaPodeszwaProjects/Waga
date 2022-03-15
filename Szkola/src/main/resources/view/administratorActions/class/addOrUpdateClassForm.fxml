@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="window" prefHeight="211.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.administratorActions.schoolClass.AddOrUpdateClassController">
+    <children>
+      <Label fx:id="title" alignment="CENTER" layoutY="10.0" prefWidth="290.0" text="Title">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+        <Label layoutX="20.0" layoutY="51.0" prefHeight="18.0" prefWidth="90.0" text="Nazwa:" />
+      <Label layoutX="20.0" layoutY="91.0" prefWidth="90.0" text="Wychowawca:" />
+      <Label layoutX="20.0" layoutY="131.0" prefWidth="90.0" text="Przewodniczący:" />
+        <TextField fx:id="name" layoutX="120.0" layoutY="46.0" prefHeight="25.0" prefWidth="150.0" promptText="wymagane" />
+      <ComboBox fx:id="tutor" layoutX="120.0" layoutY="86.0" prefHeight="25.0" prefWidth="150.0" />
+      <ComboBox fx:id="leader" layoutX="120.0" layoutY="126.0" prefHeight="25.0" prefWidth="150.0" />
+        <Button fx:id="confirm" layoutX="20.0" layoutY="166.0" mnemonicParsing="false" onAction="#confirmChangesButton" prefWidth="115.0" styleClass="button-confirm" text="Zatwierdź" />
+        <Button layoutX="155.0" layoutY="166.0" mnemonicParsing="false" onAction="#discardChangesButton" prefHeight="25.0" prefWidth="115.0" text="Anuluj" />
+    </children>
+</AnchorPane>

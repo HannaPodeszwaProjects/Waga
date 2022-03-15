@@ -3,10 +3,11 @@ Projekty wykonane podczas studiów.
 
 Java:
 - wzorce projektowe - dwa programy wykorzystujące wzorce adapter oraz pyłek.
-- Dziennik ocen - program napisany w 2 wersjach: okienkowej oraz webowej, możliwia dodawanie ocen
+- Dziennik ocen - program napisany w 2 wersjach: okienkowej oraz webowej, umożliwia dodawanie ocen.
+- Szkoła - projekt grupowy. Elementami zaimplementowanymi przez mnie były głównie funkcję administratora, za wyjątkiem funkcji dotyczących uczniów. Aplikacja wspomagającą pracę szkoły. Głównym celem systemu było usprawnienie pracy szkoły w zakresie obsługi uczniów (przechowywanie informacji o danych osobowych ucznia, jego ocenach z poszczególnych przedmiotów, absencji, udziale w konkursach szkolnych i pozaszkolnych i osiąganych tam wynikach) oraz nauczycieli(przechowywanie informacji o prowadzonych zajęcia, nieobecnościech, udziale w przygotowywaniu uczniów do poszczególnych konkursów, prowadzonych na terenie szkoły kółkach zainteresowań). W systemie istnieje też możliwość generowania raportów statystycznych dotyczących uczniów (np. lista osób i klas o najniższej/najwyższej średniej, najwyższej /najniższej absencji ...), oraz nauczycieli (udział w przygotowaniach do konkursów i osiągnięte wyniki, prowadzenie zajęć dodatkowych ...).
 
 Kotlin:
-- Fruits and vegetables recognition - aplikacja mobilna symulujaca działanie wagi sklepowej, umożliwiająca rozpoznanie ważonego owocu lub warzywa z wykorzytsaniem kamery w telefonie.
+- Fruits and vegetables recognition - aplikacja mobilna symulujaca działanie wagi sklepowej, umożliwiająca rozpoznanie ważonego owocu lub warzywa z wykorzystaniem kamery w telefonie.
 - LibraryProject - celem pracy było stworzenie aplikacji wspomagającej obsługę biblioteki poprzez zapewnienie pracownikom opcji wyszukiwania, przeglądania, edycji, usuwania oraz wypożyczania i zwrotu książek, a klientom opcji wyszukiwania, przeglądania oraz rezerwacji wybranych tytułów. Każdy użytkownik ma także możliwość zeskanowania tytułu książki z wykorzystaniem kamery w telefonie.
 
 C#:

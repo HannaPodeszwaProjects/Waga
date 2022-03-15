@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="281.0" prefWidth="265.0" stylesheets="@../../../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.administratorActions.student.AddOrUpdateStudentsController">
+   <children>
+      <Button fx:id="buttonAccept" layoutX="20.0" layoutY="236.0" mnemonicParsing="false" onAction="#confirmChangesButton" prefWidth="102.0" styleClass="button-confirm" text="Zatwierdz" />
+      <Button layoutX="143.0" layoutY="236.0" mnemonicParsing="false" onAction="#discardChangesButton" prefWidth="102.0" text="Anuluj" />
+      <TextField fx:id="poleImie" layoutX="95.0" layoutY="46.0" prefWidth="150.0" promptText="wymagane" />
+      <TextField fx:id="poleDrugieImie" layoutX="95.0" layoutY="76.0" prefWidth="150.0" />
+      <TextField fx:id="poleNazwisko" layoutX="95.0" layoutY="106.0" prefWidth="150.0" promptText="wymagane" />
+      <TextField fx:id="poleMail" layoutX="95.0" layoutY="136.0" prefWidth="150.0" />
+      <TextField fx:id="poleAdres" layoutX="95.0" layoutY="166.0" prefWidth="150.0" />
+      <Label layoutX="20.0" layoutY="51.0" text="Imie:" />
+      <Label layoutX="20.0" layoutY="111.0" prefWidth="70.0" text="Nazwisko:" />
+      <Label layoutX="20.0" layoutY="171.0" prefWidth="70.0" text="Adres:" />
+      <Label layoutX="20.0" layoutY="201.0" prefWidth="70.0" text="Klasa:" />
+      <ComboBox fx:id="poleKlasa" layoutX="95.0" layoutY="196.0" prefHeight="25.0" prefWidth="150.0" />
+      <Label layoutX="20.0" layoutY="81.0" prefWidth="70.0" text="Drugie imie:" />
+      <Label layoutX="20.0" layoutY="141.0" prefWidth="70.0" text="E-mail:" />
+      <Label fx:id="title" alignment="CENTER" layoutX="32.0" layoutY="10.0" prefWidth="200.0" text="Title">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="295.0" prefWidth="426.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.administratorActions.classroom.ManageClassroomController">
+    <children>
+    <Label alignment="CENTER" layoutX="113.0" layoutY="10.0" prefWidth="200.0" text="Zarządzanie salami">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+    <TableView fx:id="tableClassrooms" layoutX="20.0" layoutY="46.0" prefHeight="229.0" prefWidth="216.0">
+        <columns>
+            <TableColumn id="nameC" fx:id="nameC" editable="false" prefWidth="200.0" resizable="false" text="Nazwa" />
+        </columns>
+    </TableView>
+    <Button layoutX="256.0" layoutY="46.0" mnemonicParsing="false" onAction="#addClassroomButton" prefHeight="25.0" prefWidth="150.0" text="Dodaj nową salę" />
+    <Button layoutX="256.0" layoutY="86.0" mnemonicParsing="false" onAction="#updateClassroomButton" prefHeight="25.0" prefWidth="150.0" text="Modyfikuj salę" />
+    <Button layoutX="256.0" layoutY="126.0" mnemonicParsing="false" onAction="#deleteClassroomButton" prefHeight="25.0" prefWidth="150.0" text="Usuń salę" />
+      <Label layoutX="256.0" layoutY="160.0" prefWidth="150.0" text="Liczba miejsc:" />
+      <Label fx:id="size" layoutX="256.0" layoutY="180.0" prefWidth="150.0" />
+      <Label layoutX="256.0" layoutY="205.0" prefWidth="150.0" text="Rzutnik:" />
+      <Label fx:id="projector" layoutX="256.0" layoutY="225.0" prefWidth="150.0" />
+    <Button layoutX="256.0" layoutY="250.0" mnemonicParsing="false" onAction="#cancelButton" prefHeight="25.0" prefWidth="150.0" text="Powrót" />
+
+
+</children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="groupId_Szkola_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>pl.polsl.entities.Administratorzy</class>
+    <class>pl.polsl.entities.GodzinyLekcji</class>
+    <class>pl.polsl.entities.Klasy</class>
+    <class>pl.polsl.entities.Kodyweryfikacyjne</class>
+    <class>pl.polsl.entities.Kolanaukowe</class>
+    <class>pl.polsl.entities.Konkursy</class>
+    <class>pl.polsl.entities.Nauczyciele</class>
+    <class>pl.polsl.entities.Nieobecnosci</class>
+    <class>pl.polsl.entities.Oceny</class>
+    <class>pl.polsl.entities.Przedmioty</class>
+    <class>pl.polsl.entities.Rodzice</class>
+    <class>pl.polsl.entities.Rodzicielstwo</class>
+    <class>pl.polsl.entities.Rozklady</class>
+    <class>pl.polsl.entities.Sale</class>
+    <class>pl.polsl.entities.Uczniowie</class>
+    <class>pl.polsl.entities.Udzialwkole</class>
+    <class>pl.polsl.entities.Udzialwkonkursie</class>
+    <class>pl.polsl.entities.Uwagi</class>
+    <class>pl.polsl.entities.Uzytkownicy</class>
+    <class>pl.polsl.entities.Wiadomosci</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://sql11.freemysqlhosting.net:3306/sql11418837?useUnicode=yes&amp;characterEncoding=UTF-8"/>
+      <property name="javax.persistence.jdbc.user" value="sql11418837"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="eukzwFTQD9"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>

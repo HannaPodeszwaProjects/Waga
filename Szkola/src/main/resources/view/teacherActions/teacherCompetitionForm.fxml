@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="347.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.teacherActions.TeacherCompetitionController">
+   <children>
+
+       <Label alignment="CENTER" layoutX="215.0" layoutY="10.0" prefWidth="200.0" text="Konkursy">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="20.0" layoutY="46.0" prefHeight="187.0" prefWidth="420.0">
+        <columns>
+          <TableColumn fx:id="columnStudent" editable="false" prefWidth="180.0" resizable="false" text="Uczeń" />
+            <TableColumn fx:id="columnClass" editable="false" prefWidth="40.0" resizable="false" text="Klasa" />
+            <TableColumn fx:id="columnAchievement" editable="false" prefWidth="186.0" resizable="false" text="Osiągnięcie" />
+        </columns>
+      </TableView>
+       <TextField fx:id="achievementField" layoutX="20.0" layoutY="243.0" prefHeight="25.0" prefWidth="250.0" />
+       <Button fx:id="buttonAchievement" disable="true" layoutX="290.0" layoutY="243.0" mnemonicParsing="false" onAction="#clickButtonAchievement" prefHeight="25.0" prefWidth="150.0" text="Zmień osiągnięcie" />
+       <Label fx:id="dateLabel" alignment="TOP_LEFT" layoutX="20.0" layoutY="280.0" prefHeight="25.0" prefWidth="109.0" />
+     <Label fx:id="descLabel" alignment="TOP_LEFT" layoutX="23.0" layoutY="311.0" prefHeight="27.0" prefWidth="412.0" wrapText="true" />
+     <ComboBox fx:id="comboboxCompetitions" layoutX="460.0" layoutY="46.0" onAction="#changeComboboxCompetitions" prefWidth="150.0" />
+
+       <Button layoutX="460.0" layoutY="79.0" mnemonicParsing="false" onAction="#clickButtonAdd" prefWidth="150.0" text="Dodaj konkurs" />
+
+       <Button fx:id="buttonAssign" layoutX="460.0" layoutY="111.0" mnemonicParsing="false" onAction="#clickButtonAssign" prefHeight="25.0" prefWidth="150.0" text="Przypisz uczestników" />
+      <Label fx:id="infoLabel" alignment="TOP_LEFT" layoutX="460.0" layoutY="161.0" prefHeight="60.0" prefWidth="150.0" wrapText="true" />
+
+       <Button fx:id="buttonDelete" layoutX="460.0" layoutY="243.0" mnemonicParsing="false" onAction="#clickButtonDelete" prefHeight="25.0" prefWidth="150.0" text="Usuń konkurs" />
+       <Button fx:id="buttonUnassign" disable="true" layoutX="460.0" layoutY="276.0" mnemonicParsing="false" onAction="#clickButtonUnassign" prefHeight="25.0" prefWidth="150.0" text="Usuń uczestnika" />
+      <Button layoutX="460.0" layoutY="308.0" mnemonicParsing="false" onAction="#clickButtonBack" prefHeight="25.0" prefWidth="150.0" text="Powrót" />
+   </children>
+</AnchorPane>

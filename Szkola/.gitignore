@@ -1,0 +1,10 @@
+#Maven
+target/
+log/
+
+#Intellij
+.idea/
+*.iml
+*.iws
+
+/IdeaProjects

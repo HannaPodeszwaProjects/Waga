@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="307.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.administratorActions.lessons.manageLessonHoursController">
+   <children>
+      <Label alignment="CENTER" layoutX="55.0" layoutY="9.0" prefHeight="27.0" prefWidth="290.0" text="Harmonogram godzin lekcyjnych">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="20.0" layoutY="46.0" prefHeight="241.0" prefWidth="241.0">
+        <columns>
+            <TableColumn fx:id="columnNum" editable="false" prefWidth="25.0" resizable="false" sortable="false" />
+            <TableColumn fx:id="columnBegin" editable="false" prefWidth="100.0" resizable="false" sortable="false" style="-fx-text-align: CENTER; -fx-text-alignment: CENTER; -fx-alignment: CENTER;" text="Początek" />
+            <TableColumn fx:id="columnEnd" editable="false" prefWidth="100.0" resizable="false" sortable="false" style="-fx-text-align: CENTER; -fx-text-alignment: CENTER; -fx-alignment: CENTER;" text="Koniec" />
+        </columns>
+      </TableView>
+      <Label layoutX="281.0" layoutY="46.0" text="Początek" />
+      <TextField fx:id="textFormBegin" layoutX="281.0" layoutY="66.0" prefHeight="26.0" prefWidth="100.0" />
+      <Label layoutX="281.0" layoutY="106.0" text="Koniec" />
+      <TextField fx:id="textFormEnd" layoutX="281.0" layoutY="126.0" prefHeight="26.0" prefWidth="100.0" />
+      <Button layoutX="281.0" layoutY="171.0" mnemonicParsing="false" onAction="#clickButtonAccept" prefHeight="26.0" prefWidth="100.0" text="Zatwierdź" />
+      <Button fx:id="addingButton" layoutX="281.0" layoutY="216.0" mnemonicParsing="false" onAction="#clickAddNewButton" prefHeight="26.0" prefWidth="100.0" text="Dodaj nową" />
+      <Button fx:id="buttonBack" layoutX="281.0" layoutY="262.0" mnemonicParsing="false" onAction="#clickButtonBack" prefWidth="100.0" text="Powrót" />
+   </children>
+</AnchorPane>

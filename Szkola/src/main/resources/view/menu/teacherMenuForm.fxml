@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="371.0" prefWidth="190.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.menu.TeacherMenuController">
+   <children>
+      <Label alignment="CENTER" layoutY="10.0" prefWidth="190.0" text="Konto nauczyciela">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="20.0" layoutY="46.0" mnemonicParsing="false" onAction="#clickButtonGrades" prefHeight="25.0" prefWidth="150.0" text="Oceny" />
+      <Button layoutX="20.0" layoutY="86.0" mnemonicParsing="false" onAction="#clickButtonAbsence" prefHeight="25.0" prefWidth="150.0" text="Nieobecności" />
+      <Button layoutX="20.0" layoutY="126.0" mnemonicParsing="false" onAction="#clickButtonMessages" prefHeight="25.0" prefWidth="150.0" text="Wiadomości" />
+      <Button layoutX="20.0" layoutY="166.0" mnemonicParsing="false" onAction="#clickButtonSchedule" prefHeight="25.0" prefWidth="150.0" text="Plan lekcji" />
+      <Button layoutX="20.0" layoutY="206.0" mnemonicParsing="false" onAction="#clickButtonNote" prefHeight="25.0" prefWidth="150.0" text="Uwagi" />
+      <Button layoutX="20.0" layoutY="246.0" mnemonicParsing="false" onAction="#clickButtonClubs" prefHeight="25.0" prefWidth="150.0" text="Koła naukowe" />
+      <Button layoutX="20.0" layoutY="286.0" mnemonicParsing="false" onAction="#clickButtonCompetitions" prefHeight="25.0" prefWidth="150.0" text="Konkursy" />
+      <Button layoutX="20.0" layoutY="326.0" mnemonicParsing="false" onAction="#clickButtonLogout" prefHeight="25.0" prefWidth="150.0" text="Wyloguj" />
+   </children>
+</AnchorPane>

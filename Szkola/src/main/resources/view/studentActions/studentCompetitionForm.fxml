@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="335.0" prefWidth="576.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.studentActions.StudentCompetitionController">
+    <children>
+        <Label layoutX="188.0" layoutY="10.0" prefWidth="200.0" style="-fx-alignment: Center;" text="Konkursy">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="20.0" layoutY="40.0" text="Konkursy, w których uczestniczysz" />
+        <TableView fx:id="competitionTable" layoutX="20.0" layoutY="56.0" prefHeight="259.0" prefWidth="366.0">
+            <columns>
+                <TableColumn fx:id="competitionNameColumn" prefWidth="150.0" resizable="false" text="Nazwa" />
+                <TableColumn fx:id="competitionColumn" prefWidth="200.0" resizable="false" text="Opis" />
+            </columns>
+        </TableView>
+        <ComboBox fx:id="comboBoxCompetitions" layoutX="406.0" layoutY="56.0" prefHeight="25.0" prefWidth="150.0" promptText="Wybierz konkurs" />
+        <ComboBox fx:id="comboBoxTeachers" layoutX="406.0" layoutY="96.0" prefHeight="25.0" prefWidth="150.0" promptText="Wybierz nauczyciela" />
+        <Button fx:id="buttonApply" layoutX="406.0" layoutY="136.0" mnemonicParsing="false" onAction="#clickButtonApply" prefHeight="25.0" prefWidth="150.0" text="Zapisz się" />
+        <Button layoutX="406.0" layoutY="176.0" mnemonicParsing="false" onAction="#clickButtonLeave" prefHeight="25.0" prefWidth="150.0" text="Zrezygnuj" />
+        <Label fx:id="competitionName" layoutX="406.0" layoutY="207.0" prefHeight="17.0" prefWidth="150.0" />
+        <Label fx:id="competitionDescription" alignment="TOP_LEFT" layoutX="405.0" layoutY="230.0" prefHeight="51.0" prefWidth="150.0" wrapText="true" />
+        <Button layoutX="406.0" layoutY="290.0" mnemonicParsing="false" onAction="#clickButtonBack" prefHeight="25.0" prefWidth="150.0" text="Powrót" />
+    </children>
+</AnchorPane>

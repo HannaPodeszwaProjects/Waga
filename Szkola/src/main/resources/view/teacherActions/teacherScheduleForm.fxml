@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="911.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.teacherActions.TeacherScheduleController">
+   <children>
+      <Label alignment="CENTER" layoutX="405.0" layoutY="10.0" prefWidth="100.0" text="Plan lekcji">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="20.0" layoutY="46.0" prefHeight="300.0" prefWidth="871.0">
+        <columns>
+          <TableColumn fx:id="columnNum" editable="false" prefWidth="25.0" sortable="false" />
+          <TableColumn fx:id="columnHours" editable="false" sortable="false" text="Godziny" />
+            <TableColumn fx:id="columnMon" editable="false" prefWidth="150.0" sortable="false" style="-fx-text-alignment: CENTER; -fx-text-align: CENTER; -fx-alignment: CENTER;" text="Poniedziałek" />
+            <TableColumn fx:id="columnTue" editable="false" prefWidth="150.0" sortable="false" style="-fx-text-alignment: CENTER; -fx-text-align: CENTER; -fx-alignment: CENTER;" text="Wtorek" />
+            <TableColumn fx:id="columnWen" editable="false" prefWidth="150.0" sortable="false" style="-fx-text-alignment: CENTER; -fx-text-align: CENTER; -fx-alignment: CENTER;" text="Środa" />
+            <TableColumn fx:id="columnThu" editable="false" prefWidth="150.0" sortable="false" style="-fx-text-alignment: CENTER; -fx-text-align: CENTER; -fx-alignment: CENTER;" text="Czwartek" />
+            <TableColumn fx:id="columnFri" editable="false" prefWidth="150.0" sortable="false" style="-fx-text-alignment: CENTER; -fx-text-align: CENTER; -fx-alignment: CENTER;" text="Piątek" />
+        </columns>
+      </TableView>
+      <Button layoutX="741.0" layoutY="360.0" mnemonicParsing="false" onAction="#clickButtonBack" prefWidth="150.0" text="Powrót" />
+   </children>
+</AnchorPane>

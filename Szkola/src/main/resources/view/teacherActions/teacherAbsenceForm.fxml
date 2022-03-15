@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="370.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.teacherActions.TeacherAbsenceController">
+   <children>
+      <Label alignment="CENTER" layoutX="165.0" layoutY="10.0" prefHeight="27.0" prefWidth="200.0" text="Nieobecności">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" editable="true" layoutX="20.0" layoutY="46.0" prefHeight="230.0" prefWidth="490.0">
+        <columns>
+          <TableColumn fx:id="columnDate" editable="false" prefWidth="100.0" resizable="false" text="Data" />
+            <TableColumn fx:id="columnLessonStart" editable="false" prefWidth="60.0" resizable="false" text="Od" />
+            <TableColumn fx:id="columnLessonEnd" editable="false" prefWidth="60.0" resizable="false" text="Do" />
+            <TableColumn fx:id="columnSubject" editable="false" minWidth="0.0" prefWidth="144.0" resizable="false" text="Przedmiot" />
+
+            <TableColumn fx:id="columnExcuse" editable="false" prefWidth="110.0" resizable="false" text="Usprawiedliwiona" />
+
+        </columns>
+      </TableView>
+      <ComboBox fx:id="comboboxSchedule" layoutX="20.0" layoutY="290.0" onAction="#changeComboboxSchedule" prefWidth="150.0" />
+      <ComboBox fx:id="comboboxStudent" layoutX="20.0" layoutY="330.0" onAction="#changeComboboxStudent" prefWidth="150.0" />
+       <Button fx:id="buttonAdd" layoutX="190.0" layoutY="290.0" mnemonicParsing="false" onAction="#clickButtonAdd" prefHeight="25.0" prefWidth="149.0" text="Dodaj nową" />
+
+       <Button fx:id="buttonDelete" disable="true" layoutX="190.0" layoutY="330.0" mnemonicParsing="false" onAction="#clickButtonDelete" prefHeight="25.0" prefWidth="149.0" text="Usuń zaznaczoną" />
+       <Button fx:id="buttonExcuse" disable="true" layoutX="359.0" layoutY="290.0" mnemonicParsing="false" onAction="#clickButtonExcuse" prefHeight="25.0" prefWidth="151.0" text="Usprawiedliw zaznaczoną" />
+      <Button layoutX="359.0" layoutY="330.0" mnemonicParsing="false" onAction="#clickButtonBack" prefHeight="25.0" prefWidth="150.0" text="Powrót" />
+   </children>
+</AnchorPane>

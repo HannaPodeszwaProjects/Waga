@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="425.0" prefWidth="486.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.teacherActions.TeacherGradesController">
+   <children>
+      <Label alignment="CENTER" layoutX="193.0" layoutY="10.0" prefWidth="100.0" text="Oceny">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="20.0" layoutY="46.0" prefHeight="230.0" prefWidth="446.0">
+        <columns>
+          <TableColumn fx:id="columnDesc" editable="false" prefWidth="250.0" resizable="false" text="Opis" />
+            <TableColumn fx:id="columnDate" editable="false" resizable="false" text="Data" />
+            <TableColumn fx:id="columnGrade" editable="false" prefWidth="50.0" resizable="false" text="Ocena" />
+            <TableColumn fx:id="columnValue" editable="false" prefWidth="50.0" resizable="false" text="Waga" />
+
+        </columns>
+      </TableView>
+      <ComboBox fx:id="comboboxClass" layoutX="20.0" layoutY="290.0" onAction="#changeComboboxClass" prefWidth="150.0" />
+      <ComboBox fx:id="comboboxSubject" layoutX="20.0" layoutY="335.0" onAction="#changeComboboxSubject" prefWidth="150.0" />
+      <ComboBox fx:id="comboboxStudent" layoutX="20.0" layoutY="380.0" onAction="#changeComboboxStudent" prefWidth="150.0" />
+      <Button fx:id="buttonAverage" disable="true" layoutX="190.0" layoutY="290.0" mnemonicParsing="false" onAction="#clickButtonAverage" prefWidth="128.0" text="Policz średnią" />
+      <Label fx:id="labelAerage" alignment="CENTER" layoutX="190.0" layoutY="337.0" prefWidth="128.0" text="Label">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonAdd" layoutX="338.0" layoutY="290.0" mnemonicParsing="false" onAction="#clickButtonAdd" prefWidth="128.0" text="Dodaj nową" />
+
+            <Button fx:id="buttonDelete" layoutX="338.0" layoutY="335.0" mnemonicParsing="false" onAction="#clickButtonDelete" prefHeight="25.0" prefWidth="128.0" text="Usuń zaznaczoną" />
+      <Button layoutX="338.0" layoutY="380.0" mnemonicParsing="false" onAction="#clickButtonBack" prefHeight="25.0" prefWidth="128.0" text="Powrót" />
+   </children>
+</AnchorPane>

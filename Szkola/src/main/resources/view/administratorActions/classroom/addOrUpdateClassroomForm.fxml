@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="211.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.administratorActions.classroom.AddOrUpdateClassroomController">
+    <children>
+        <Button fx:id="confirm" layoutX="20.0" layoutY="166.0" mnemonicParsing="false" onAction="#confirmChangesButton" prefHeight="25.0" prefWidth="135.0" styleClass="button-confirm" text="Zatwierdź" />
+        <Button layoutX="175.0" layoutY="166.0" mnemonicParsing="false" onAction="#discardChangesButton" prefHeight="26.0" prefWidth="135.0" text="Anuluj" />
+        <TextField fx:id="name" layoutX="110.0" layoutY="46.0" prefHeight="25.0" prefWidth="200.0" promptText="wymagane" />
+        <Label layoutX="20.0" layoutY="51.0" prefHeight="18.0" prefWidth="80.0" text="Nazwa:" />
+        <Label fx:id="title" alignment="CENTER" layoutX="21.0" layoutY="10.0" prefHeight="27.0" prefWidth="290.0" text="Title">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+        <TextField fx:id="size" layoutX="110.0" layoutY="86.0" prefHeight="25.0" prefWidth="200.0" />
+      <Label layoutX="20.0" layoutY="91.0" prefWidth="80.0" text="Liczba miejsc:" />
+      <Label layoutX="20.0" layoutY="131.0" prefWidth="80.0" text="Rzutnik:" />
+      <RadioButton fx:id="yes" layoutX="132.0" layoutY="131.0" mnemonicParsing="false" text="Tak" />
+      <RadioButton fx:id="no" layoutX="199.0" layoutY="131.0" mnemonicParsing="false" selected="true" text="Nie" />
+
+    </children>
+</AnchorPane>

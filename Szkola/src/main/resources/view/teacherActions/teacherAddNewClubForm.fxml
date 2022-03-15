@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="211.0" prefWidth="230.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.teacherActions.TeacherAddNewClubController">
+   <children>
+      <Label alignment="CENTER" layoutY="10.0" prefWidth="230.0" text="Nowe koło">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+        <TextField fx:id="nameTextField" layoutX="20.0" layoutY="46.0" prefHeight="25.0" prefWidth="190.0" promptText="Nazwa koła" />
+        <Label fx:id="infoLabel" layoutX="20.0" layoutY="81.0" prefHeight="35.0" prefWidth="190.0" wrapText="true" />
+        <Button layoutX="20.0" layoutY="126.0" mnemonicParsing="false" onAction="#clickButtonAdd" prefHeight="25.0" prefWidth="190.0" text="Dodaj koło" />
+        <Button layoutX="20.0" layoutY="166.0" mnemonicParsing="false" onAction="#clickButtonBack" prefHeight="25.0" prefWidth="190.0" text="Powrót" />
+      </children>
+</AnchorPane>

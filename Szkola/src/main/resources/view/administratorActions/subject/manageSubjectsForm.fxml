@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="316.0" prefWidth="446.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controller.administratorActions.subject.ManageSubjectsController">
+    <children>
+      <Label alignment="CENTER" layoutX="113.0" layoutY="10.0" prefWidth="220.0" text="Zarządzanie przedmiotami">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+        <TableView fx:id="tableSubjects" layoutX="20.0" layoutY="46.0" prefHeight="250.0" prefWidth="236.0">
+            <columns>
+                <TableColumn id="nameC" fx:id="nameC" prefWidth="220.0" resizable="false" text="Nazwa" />
+            </columns>
+        </TableView>
+        <Button layoutX="276.0" layoutY="46.0" mnemonicParsing="false" onAction="#addSubjectButton" prefHeight="26.0" prefWidth="150.0" text="Dodaj nowy przedmiot" />
+        <Button layoutX="276.0" layoutY="86.0" mnemonicParsing="false" onAction="#updateSubjectButton" prefHeight="26.0" prefWidth="150.0" text="Modyfikuj przedmiot" />
+        <Button layoutX="276.0" layoutY="126.0" mnemonicParsing="false" onAction="#deleteSubjectButton" prefHeight="26.0" prefWidth="150.0" text="Usuń przedmiot" />
+      <Button layoutX="276.0" layoutY="271.0" mnemonicParsing="false" onAction="#cancelButton" prefHeight="26.0" prefWidth="150.0" text="Powrót" />
+
+
+    </children>
+</AnchorPane>
