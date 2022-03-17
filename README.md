@@ -11,6 +11,7 @@ Kotlin:
 - LibraryProject - celem pracy było stworzenie aplikacji wspomagającej obsługę biblioteki poprzez zapewnienie pracownikom opcji wyszukiwania, przeglądania, edycji, usuwania oraz wypożyczania i zwrotu książek, a klientom opcji wyszukiwania, przeglądania oraz rezerwacji wybranych tytułów. Każdy użytkownik ma także możliwość zeskanowania tytułu książki z wykorzystaniem kamery w telefonie.
 
 C#:
+- Music Catalog - katalog przechowujący dane albumów muzycznych oraz poszczególnych utworów. 
 - Lista zakupów - projekt grupowy, program umożliwia tworzenie list zakupów oraz ich szablonów.
 
 C++:
