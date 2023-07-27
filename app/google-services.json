@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "766008862627",
+    "project_id": "waga-21ebd",
+    "storage_bucket": "waga-21ebd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766008862627:android:31ff2dc18f949c4c995c16",
+        "android_client_info": {
+          "package_name": "pl.polsl.waga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766008862627-8l9h79qcb2n3ml7lj2sgp027cgokiklh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbn2sVUx4fi49WtcA8zaK1gwiLVUMWZTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766008862627-8l9h79qcb2n3ml7lj2sgp027cgokiklh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
