@@ -1,1 +1,10 @@
-/Dziennik ocen/DziennikOcen web/target/
+﻿################################################################################
+# Ten plik .gitignore został utworzony automatycznie przez Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/FruitRecognition/v16
+/.vs
+/.vscode
+/.Pipfile
+/.Pipfile.lock
+/.fruitSplit

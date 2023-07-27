@@ -1,3 +1,0 @@
-﻿  Gra.cpp
-C:\Users\hanna\Desktop\programowanie\Sudoku\Sudoku\Gra.cpp(144,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
-  Sudoku.vcxproj -> C:\Users\hanna\Desktop\programowanie\Sudoku\Debug\Sudoku.exe
